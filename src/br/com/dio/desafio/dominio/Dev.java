@@ -37,7 +37,7 @@ public class Dev {
         this.nome = nome;
     }
 
-    public Set<Conteudo> getConteudosIncricao() {
+    public Set<Conteudo> getConteudosIncricao(String java, String cursoDescricaoJava) {
         return conteudosIncritos;
     }
 

@@ -36,7 +36,7 @@ public class Main {
         Dev devDouglas = new Dev();
         devDouglas.setNome("Douglas");
         devDouglas.escreverBootcamp(bootcamp);
-        System.out.println("Conteudos inscritos Douglas:" + devDouglas.getConteudosIncricao());
+        System.out.println("Conteudos inscritos Douglas:" + devDouglas.getConteudosIncricao("Java", "Curso descricaoJava"));
         devDouglas.progredir();
         System.out.println("Conteudos concluidos Douglas:" + devDouglas.getConteudosConcluidos());
         System.out.println("Calcular XP:" + devDouglas.calcularTotal());
@@ -44,7 +44,7 @@ public class Main {
         Dev devSve = new Dev();
         devSve.setNome("Svetlana");
         devSve.escreverBootcamp(bootcamp);
-        System.out.println("Conteudos inscritos Svetlana:" +devSve.getConteudosIncricao());
+        System.out.println("Conteudos inscritos Svetlana:" +devSve.getConteudosIncricao("Java", "Curso descricaoJava"));
         devSve.progredir();
         devSve.progredir();
         System.out.println("Conteudos concluidos Svetlana:" +devSve.getConteudosConcluidos());
